@@ -1,5 +1,5 @@
 import unittest
-from ..main.lab import (
+from src.main.lab import (
     equal_to,
     greater_than,
     less_than,
