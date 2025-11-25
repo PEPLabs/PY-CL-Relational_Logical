@@ -1,0 +1,55 @@
+{
+  "type": "python",
+  "testFiles": [
+    {
+      "path": "src/test/lab_test.py",
+      "testCases": [
+        {
+          "methodName": "test_equal_to",
+          "label": "Verify equal_to compares equality correctly",
+          "description": "Checks that equal_to returns True when values are equal and False otherwise."
+        },
+        {
+          "methodName": "test_greater_than",
+          "label": "Verify greater_than compares values correctly",
+          "description": "Ensures greater_than returns True when the first value is greater than the second."
+        },
+        {
+          "methodName": "test_less_than",
+          "label": "Verify less_than compares values correctly",
+          "description": "Ensures less_than returns True when the first value is less than the second."
+        },
+        {
+          "methodName": "test_greater_than_or_equal_to",
+          "label": "Verify greater_than_or_equal_to handles equality and greater values",
+          "description": "Checks that greater_than_or_equal_to returns True when values are equal or the first is greater."
+        },
+        {
+          "methodName": "test_less_than_or_equal_to",
+          "label": "Verify less_than_or_equal_to handles equality and lesser values",
+          "description": "Ensures less_than_or_equal_to returns True when values are equal or the first is smaller."
+        },
+        {
+          "methodName": "test_not_equal_to",
+          "label": "Verify not_equal_to identifies unequal values",
+          "description": "Checks that not_equal_to returns True when values differ and False when they are equal."
+        },
+        {
+          "methodName": "test_logical_and",
+          "label": "Verify logical_and performs boolean AND",
+          "description": "Ensures logical_and returns True only if both inputs are True."
+        },
+        {
+          "methodName": "test_logical_or",
+          "label": "Verify logical_or performs boolean OR",
+          "description": "Checks that logical_or returns True when at least one input is True."
+        },
+        {
+          "methodName": "test_logical_not",
+          "label": "Verify logical_not performs boolean negation",
+          "description": "Ensures logical_not returns the opposite boolean value."
+        }
+      ]
+    }
+  ]
+}
